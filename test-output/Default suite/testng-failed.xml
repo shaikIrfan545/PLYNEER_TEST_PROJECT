@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="END_TO_END_SCENARIO.ADD_CART_THEN_CHECKOUT_TEST">
+        <methods>
+          <include name="CheckOutProduct"/>
+        </methods>
+      </class> <!-- END_TO_END_SCENARIO.ADD_CART_THEN_CHECKOUT_TEST -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
